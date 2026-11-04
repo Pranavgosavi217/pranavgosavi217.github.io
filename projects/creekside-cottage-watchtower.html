@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1b2921">
+<meta name="author" content="Pietro Braz">
+<meta name="description" content="Creekside Cottage & Watchtower is a procedural low-poly 3D environment study designed around recognizable architecture, natural forms, and Roblox Studio import constraints. See real model renders and technical details.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://pie030.github.io/projects/creekside-cottage-watchtower.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Creekside Cottage & Watchtower — Pietro Braz">
+<meta property="og:description" content="A procedural low-poly environment study: 15,582 triangles, 14 materials, and a Y-up GLB export for Roblox Studio import testing.">
+<meta property="og:url" content="https://pie030.github.io/projects/creekside-cottage-watchtower.html">
+<meta property="og:image" content="https://pie030.github.io/assets/creekside-social.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pie030.github.io/assets/creekside-social.jpg">
+<title>Creekside Cottage & Watchtower — Pietro Braz</title>
+<link rel="stylesheet" href="../css/creekside.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="wrap header-inner">
+<a class="brand" href="../index.html" aria-label="Pietro Braz, portfolio home"><span class="mark" aria-hidden="true">PB</span><span>PIETRO BRAZ</span></a>
+<nav class="nav" aria-label="Project navigation"><a href="../index.html#work">Selected work</a><a href="../index.html#about">About</a></nav>
+</div></header>
+<main id="main">
+<section class="hero"><div class="wrap hero-grid">
+<div class="hero-copy"><div><div class="eyebrow">03 / 3D Environment Study / 2026</div><h1>Creekside<br><em>Cottage &</em><br>Watchtower.</h1><p>A small low-poly landscape built around a cottage, a stone watchtower, a footbridge, and a creek. The goal: recognizable forms, believable connections, and a coherent world rather than arbitrary decoration.</p></div><div class="hero-bottom"><span class="pill">Procedural 3D</span><span class="pill">Work in progress</span><a class="back" href="../index.html#work">← Back to work</a></div></div>
+<figure class="hero-visual"><img src="../assets/creekside-hero.webp" width="1600" height="1000" alt="Actual render of the low-poly scene: a watchtower and cottage beside a creek crossed by a wooden footbridge" fetchpriority="high"><figcaption>01 / Actual render of the procedural model — not concept art</figcaption></figure>
+</div></section>
+<div class="stats"><div class="wrap stats-grid"><div class="stat"><strong>15,582</strong><span>Triangles / Full scene</span></div><div class="stat"><strong>28</strong><span>Optimized meshes</span></div><div class="stat"><strong>14</strong><span>Flat-color materials</span></div><div class="stat"><strong>337 KB</strong><span>Y-up GLB export</span></div></div></div>
+<section class="section" id="scene"><div class="wrap"><div class="section-head"><div><div class="eyebrow">01 / The environment</div><h2>A small place.<br>A complete idea.</h2></div><p>The scene is deliberately compact: a cottage and watchtower sit on the same landmass, a path connects them, and a wooden bridge crosses the creek before the water reaches a single waterfall.</p></div>
+<div class="gallery"><figure class="frame wide"><img src="../assets/creekside-aerial.webp" alt="Aerial render showing the entire low-poly landmass, buildings, paths, creek and bridge" width="1400" height="788" loading="lazy"><figcaption>02 / Aerial composition — buildings, footpaths and water belong to one layout.</figcaption></figure>
+<figure class="frame half"><img src="../assets/creekside-cottage.webp" alt="Close-up of the low-poly cottage with a closed gabled roof, walls, door and windows" width="1200" height="675" loading="lazy"><figcaption>03 / Cottage — closed roof geometry, door and window openings, supported porch.</figcaption></figure>
+<figure class="frame half"><img src="../assets/creekside-bridge.webp" alt="Close-up of the wooden footbridge with railings and planks over the creek" width="1200" height="675" loading="lazy"><figcaption>04 / Footbridge — planks, railings and a route between both banks.</figcaption></figure>
+<figure class="frame wide"><img src="../assets/creekside-waterfall.webp" alt="Close-up render of the creek outlet and waterfall descending from the edge of the terrain" width="1200" height="675" loading="lazy"><figcaption>05 / Watercourse — recessed bed, riverbanks and a downstream outlet.</figcaption></figure></div>
+</div></section>
+<section class="process"><div class="wrap"><div class="eyebrow">02 / Design decisions</div><div class="section-head" style="margin-top:4px;margin-bottom:0"><h2>Less geometry.<br>More structure.</h2><p>The revision focused on the things a viewer should recognize immediately: a roof that actually closes, trees with supporting branches, and water that follows the land.</p></div><div class="process-grid"><div class="process-item"><div class="eyebrow">01 / Construction</div><h3>Build believable objects.</h3><p>Roof panels have thickness and gable closure. Doors and windows occupy actual openings. The bridge has a walkable-looking deck and supported railings. This is visual construction, not yet a gameplay collision system.</p></div><div class="process-item"><div class="eyebrow">02 / Natural forms</div><h3>Connect every part.</h3><p>Tree canopies are supported by trunks and branches. The creek has a recessed bed, banks and one downstream waterfall. Rocks use faceted silhouettes rather than repeated generic cubes.</p></div><div class="process-item"><div class="eyebrow">03 / Optimization</div><h3>Keep the silhouette.</h3><p>Geometry was reduced from 32,685 to 15,582 triangles (about 52% fewer), while retaining the main scene elements. Four modular exports preserve the same origin for assembly.</p></div></div></div></section>
+<section class="section"><div class="wrap details"><div><div class="eyebrow">03 / Technical notes</div><h2>Built through iteration.</h2><p>This environment was generated procedurally with Python and geometry tools, then revised through render inspection and structural checks. It is not presented as a hand-sculpted Blender model.</p><p>The full scene was exported as GLB and re-imported for automated geometry checks. The latest export converts the authored Z-up geometry to the glTF Y-up convention for the next Roblox Studio import test.</p><p>All screenshots on this page are renders of the actual model. The exported asset is available below for inspection.</p></div><dl class="facts"><div class="fact"><dt>Format</dt><dd>glTF 2.0 / GLB, Y-up</dd></div><div class="fact"><dt>Geometry</dt><dd>15,582 triangles, 28 optimized meshes</dd></div><div class="fact"><dt>Materials</dt><dd>14 flat-color PBR materials</dd></div><div class="fact"><dt>Tools</dt><dd>Python, trimesh, NumPy, geometry scripts, WebGL viewer</dd></div><div class="fact"><dt>Scope</dt><dd>Static low-poly environment study; cottage, tower, bridge, creek, nature and props</dd></div><div class="fact"><dt>Export</dt><dd>Single optimized GLB plus modular files in the development package</dd></div><div class="fact"><dt>Validation</dt><dd>Geometry roundtrip and degenerate-face checks passed; Roblox Studio tests pending</dd></div></dl></div></section>
+<section class="status"><div class="wrap status-grid"><div><div class="eyebrow">04 / Current status</div><h2>Designed for Roblox.<br>Not yet verified in Studio.</h2><p>Low polygon count and modular exports are a starting point, not proof of production readiness. The next step is to import the asset, inspect the scale and materials, configure simple collision proxies, and measure performance in a real Roblox place.</p><div class="actions"><a class="action primary" href="../assets/creekside-yup-v03.glb" download>Download GLB ↗</a><a class="action" href="../docs/creekside-studio-validation.md">Import checklist ↗</a></div><p class="status-note">The GLB is a visual study. It does not include tested walkable collisions or a complete Roblox place.</p></div><div><div class="eyebrow">Remaining verification</div><ul><li>Import succeeds with correct orientation and stud scale.</li><li>Roof, windows, bridge and trees are checked from all sides in Studio.</li><li>Material colors match the intended palette after import.</li><li>Walkable collision proxies are created and tested in Play mode.</li><li>Runtime performance is measured on the target device.</li></ul></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© 2026 Pietro Braz · Selected work</span><a href="../index.html#work">← All projects</a><a href="https://github.com/pie030" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+</body>
+</html>

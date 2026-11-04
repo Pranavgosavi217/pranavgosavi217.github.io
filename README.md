@@ -8,6 +8,7 @@ A small, static portfolio for selected game-development work.
 
 - **Wildgrade** — a browser-based driving prototype exploring procedural environments, vehicle handling, and interactive landscapes.
 - **Dungeon Descent** — an experimental Windows dungeon crawler built with C and the Win32 API.
+- **Creekside Cottage & Watchtower** — a procedural low-poly environment study, designed for Roblox Studio import testing; Studio validation is pending.
 
 Both projects are presented as prototypes, with genuine screenshots and project notes.
 
@@ -28,5 +29,6 @@ Pushes to `main` trigger the GitHub Pages workflow in `.github/workflows/pages.y
 
 - https://github.com/pie030/Wildgrade
 - https://github.com/pie030/Dungeon-Descent
+- https://pie030.github.io/projects/creekside-cottage-watchtower.html
 
 The public project repositories are showcases; they do not expose the full game source code.
