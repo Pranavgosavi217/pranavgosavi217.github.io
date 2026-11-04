@@ -10,7 +10,7 @@ A small, static portfolio for selected game-development work.
 - **Dungeon Descent** — an experimental Windows dungeon crawler built with C and the Win32 API.
 - **Creekside Cottage & Watchtower** — a procedural low-poly environment study, designed for Roblox Studio import testing; Studio validation is pending.
 
-Both projects are presented as prototypes, with genuine screenshots and project notes.
+Wildgrade and Dungeon Descent are game prototypes; Creekside is a procedural 3D environment study. All three use genuine project captures or model renders, with their current limitations stated explicitly.
 
 ## Structure
 
