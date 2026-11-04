@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1b2921">
+<meta name="author" content="Pietro Braz">
+<meta name="description" content="Coastal Fishing Hut & Pier is an original low-poly 3D environment study: a complete wooden fishing hut, supported pier, hollow rowboat and coherent coastal terrain. View real model renders and technical notes.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://pie030.github.io/projects/coastal-fishing-hut-pier.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Coastal Fishing Hut & Pier — Pietro Braz">
+<meta property="og:description" content="An original low-poly coastal environment study: 13,718 triangles, 49 mesh groups, a hollow rowboat and an import-ready Y-up GLB for further Roblox Studio testing.">
+<meta property="og:url" content="https://pie030.github.io/projects/coastal-fishing-hut-pier.html">
+<meta property="og:image" content="https://pie030.github.io/assets/coastal-social.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pie030.github.io/assets/coastal-social.jpg">
+<title>Coastal Fishing Hut & Pier — Pietro Braz</title>
+<link rel="stylesheet" href="../css/creekside.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="wrap header-inner"><a class="brand" href="../index.html" aria-label="Pietro Braz, portfolio home"><span class="mark" aria-hidden="true">PB</span><span>PIETRO BRAZ</span></a><nav class="nav" aria-label="Project navigation"><a href="../index.html#work">Selected work</a><a href="../index.html#about">About</a></nav></div></header>
+<main id="main">
+<section class="hero"><div class="wrap hero-grid">
+<div class="hero-copy"><div><div class="eyebrow">04 / 3D Environment Study / 2026</div><h1>Coastal<br><em>Fishing Hut</em><br>&amp; Pier.</h1><p>A small working shoreline: a wooden fishing hut, a pier on real supports, and a moored rowboat. Every major object was designed to read clearly, connect to its surroundings, and keep geometry lightweight.</p></div><div class="hero-bottom"><span class="pill">Procedural 3D</span><span class="pill">Low-poly study</span><a class="back" href="../index.html#work">← Back to work</a></div></div>
+<figure class="hero-visual"><img src="../assets/coastal-hero.webp" width="1600" height="1000" alt="Actual 3D render of a low-poly fishing hut on an island, with a wooden pier, rowboat, sandy shore and pines" fetchpriority="high"><figcaption>01 / Rendered directly from the procedural 3D model</figcaption></figure>
+</div></section>
+<div class="stats"><div class="wrap stats-grid"><div class="stat"><strong>13,718</strong><span>Triangles / Full scene</span></div><div class="stat"><strong>49</strong><span>Optimized mesh groups</span></div><div class="stat"><strong>27</strong><span>Flat-color materials</span></div><div class="stat"><strong>376 KB</strong><span>Y-up GLB export</span></div></div></div>
+<section class="section" id="scene"><div class="wrap"><div class="section-head"><div><div class="eyebrow">01 / The environment</div><h2>Designed as a place.<br>Not a prop collection.</h2></div><p>The hut sits above the shoreline. A descending path meets a supported pier, where a rowboat is tied to a cleat. Rocks, pines and fishing equipment follow the terrain and the practical use of the site.</p></div>
+<div class="gallery">
+<figure class="frame wide"><img src="../assets/coastal-aerial.webp" alt="Aerial view showing the hut, descending path, supported pier, boat, beach and wooded headland" width="1600" height="900" loading="lazy"><figcaption>02 / Aerial composition — a clear route from hut to shore and pier.</figcaption></figure>
+<figure class="frame half"><img src="../assets/coastal-hut.webp" alt="Close-up of the wooden fishing hut with fully closed gabled roof, actual window openings, door, porch and stairs" width="1400" height="875" loading="lazy"><figcaption>03 / Hut — complete roof, actual openings, porch and structural framing.</figcaption></figure>
+<figure class="frame half"><img src="../assets/coastal-boat.webp" alt="Close-up of the pier with support piles below the water, crates, cleats and a hollow tapered rowboat with oars" width="1400" height="875" loading="lazy"><figcaption>04 / Pier and boat — supported deck, hollow hull, seats, oars and mooring.</figcaption></figure>
+<figure class="frame wide"><img src="../assets/coastal-nature.webp" alt="Faceted pines with connected trunks and branches, coastal rocks and grasses on the land" width="1400" height="875" loading="lazy"><figcaption>05 / Natural forms — connected pine branches, faceted rocks and grounded plants.</figcaption></figure>
+</div></div></section>
+<section class="process"><div class="wrap"><div class="eyebrow">02 / Design decisions</div><div class="section-head" style="margin-top:4px;margin-bottom:0"><h2>Readable structure.<br>Lean geometry.</h2><p>The project was refined around recognizable construction rather than adding detail for its own sake.</p></div><div class="process-grid">
+<div class="process-item"><div class="eyebrow">01 / Architecture</div><h3>Close every surface.</h3><p>Both roof slopes are solid panels with thickness and closed gables. Door and window openings are modeled in the wall geometry, not painted on a flat facade.</p></div>
+<div class="process-item"><div class="eyebrow">02 / Maritime objects</div><h3>Build for function.</h3><p>The pier deck rests on stringers and piles extending below the waterline. The rowboat has a tapered, open hull, internal seats, oars, and a mooring line.</p></div>
+<div class="process-item"><div class="eyebrow">03 / Refinement</div><h3>Remove visual noise.</h3><p>The beach edge was rebuilt as a continuous contour rather than disconnected triangles. Small fish silhouettes and material-based mesh consolidation improved legibility and efficiency.</p></div>
+</div></div></section>
+<section class="section"><div class="wrap details"><div><div class="eyebrow">03 / Technical notes</div><h2>Procedural, not simulated.</h2><p>The environment was generated with Python, trimesh, NumPy and geometry tools, then inspected through renders of the actual model. It is not a hand-modeled Blender asset or a completed Roblox game.</p><p>The final GLB was exported with Y-up coordinates. A full-scene file and four modular files are included in the development package; the GLB below is the complete model.</p><p>Geometry was re-imported and checked for finite vertices, degenerate triangles, closed roof surfaces and consistency between modular exports. Roblox Studio import and in-game performance remain untested.</p></div><dl class="facts"><div class="fact"><dt>Format</dt><dd>glTF 2.0 / GLB, Y-up</dd></div><div class="fact"><dt>Geometry</dt><dd>13,718 triangles, 49 mesh groups</dd></div><div class="fact"><dt>Materials</dt><dd>27 flat-color PBR materials</dd></div><div class="fact"><dt>Tools</dt><dd>Python, trimesh, NumPy, SciPy, Shapely, VTK</dd></div><div class="fact"><dt>Scope</dt><dd>Coastal terrain, wooden hut, pier, rowboat, pine trees and fishing props</dd></div><div class="fact"><dt>Export</dt><dd>Single Y-up GLB and four category-based modules</dd></div><div class="fact"><dt>Validation</dt><dd>Geometry roundtrip and structural checks passed; Roblox Studio pending</dd></div></dl></div></section>
+<section class="status"><div class="wrap status-grid"><div><div class="eyebrow">04 / Current status</div><h2>Made with Roblox in mind.<br>Studio testing still ahead.</h2><p>The geometry budget is intentionally modest. That does not guarantee performance in a live Roblox experience. Scale, material appearance, collision and runtime FPS still need to be verified in Studio.</p><div class="actions"><a class="action primary" href="../assets/coastal-fishing-hut-pier-yup.glb" download>Download GLB ↗</a><a class="action" href="../docs/coastal-studio-validation.md">Import checklist ↗</a></div><p class="status-note">Static visual study. No tested collision setup, scripted gameplay, or completed Roblox place is included.</p></div><div><div class="eyebrow">Remaining verification</div><ul><li>Import the complete and modular GLBs at the correct orientation and scale.</li><li>Inspect the roof, doors, windows, boat interior and pier supports from all sides.</li><li>Confirm material colors and normals in Roblox Studio.</li><li>Create simple collision proxies for ground, hut and pier.</li><li>Measure FPS and draw calls on the target device.</li></ul></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>© 2026 Pietro Braz · Selected work</span><a href="../index.html#work">← All projects</a><a href="https://github.com/pie030" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+</body></html>
