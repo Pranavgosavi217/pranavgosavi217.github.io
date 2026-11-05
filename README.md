@@ -10,8 +10,9 @@ A small, static portfolio for selected game-development work.
 - **Dungeon Descent** — an experimental Windows dungeon crawler built with C and the Win32 API.
 - **Creekside Cottage & Watchtower** — a procedural low-poly environment study, designed for Roblox Studio import testing; Studio validation is pending.
 - **Coastal Fishing Hut & Pier** — a low-poly coastal study with a complete hut, supported pier and rowboat; Studio validation is pending.
+- **Rural Railway Stop & Freight Wagon** — a low-poly rural railway environment with a station, platform, track and four-wheel wagon; Studio validation is pending.
 
-Wildgrade and Dungeon Descent are game prototypes; Creekside is a procedural 3D environment study. All four use genuine project captures or model renders, with their current limitations stated explicitly.
+Wildgrade and Dungeon Descent are game prototypes; Creekside, Coastal and Rural Railway are procedural 3D environment studies. All five use genuine project captures or model renders, with their current limitations stated explicitly.
 
 ## Structure
 
@@ -32,5 +33,6 @@ Pushes to `main` trigger the GitHub Pages workflow in `.github/workflows/pages.y
 - https://github.com/pie030/Dungeon-Descent
 - https://pie030.github.io/projects/creekside-cottage-watchtower.html
 - https://pie030.github.io/projects/coastal-fishing-hut-pier.html
+- https://pie030.github.io/projects/rural-railway-stop-freight-wagon.html
 
 The public project repositories are showcases; they do not expose the full game source code.
