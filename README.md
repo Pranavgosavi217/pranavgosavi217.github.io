@@ -8,8 +8,8 @@ A small, static portfolio for selected game-development work.
 
 - **Wildgrade** — a browser-based driving prototype exploring procedural environments, vehicle handling, and interactive landscapes.
 - **Dungeon Descent** — an experimental Windows dungeon crawler built with C and the Win32 API.
-- **Creekside Cottage & Watchtower** — a procedural low-poly environment study, designed for Roblox Studio import testing; Studio validation is pending.
-- **Coastal Fishing Hut & Pier** — a low-poly coastal study with a complete hut, supported pier and rowboat; Studio validation is pending.
+- **Creekside Cottage & Watchtower** — a procedural low-poly environment study, with downloadable GLB geometry and original model renders.
+- **Coastal Fishing Hut & Pier** — a low-poly coastal study with a complete hut, supported pier and rowboat..
 - **Rural Railway Stop & Freight Wagon (v1.1)** — a low-poly railway with a station, platform, track and freight wagon; rebuilt conifers and broadleaf trees, with all 12 trees grounded inside the terrain. Studio validation is pending.
 
 Wildgrade and Dungeon Descent are game prototypes; Creekside, Coastal and Rural Railway are procedural 3D environment studies. All five use genuine project captures or model renders, with their current limitations stated explicitly.
